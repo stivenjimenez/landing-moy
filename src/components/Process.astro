@@ -1,0 +1,94 @@
+<section class="process" id="process">
+  <div class="process-container">
+    <h2 class="section-title">Proceso Simple, Resultados Extraordinarios</h2>
+    <div class="process-steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <h3>Cuéntanos tu Proyecto</h3>
+        <p>
+          Completa el formulario con los detalles de tu diseño y necesidades.
+        </p>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <h3>Recibe tu Propuesta</h3>
+        <p>
+          En 48 horas tendrás un patrón de muestra y cotización personalizada.
+        </p>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <h3>Produce con Confianza</h3>
+        <p>
+          Aprueba, descarga y comienza a producir con resultados garantizados.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .process {
+    padding: var(--section-padding) 2rem;
+    background: linear-gradient(135deg, var(--light) 0%, #fafaff 100%);
+  }
+
+  .process-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .process-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 4rem;
+    margin-top: 4rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .step {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    background: var(--white);
+    border-radius: var(--border-radius-large);
+    box-shadow: var(--shadow-soft);
+    transition: all 0.3s ease;
+    border: 1px solid var(--gray-lighter);
+  }
+
+  .step:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-medium);
+  }
+
+  .step-number {
+    width: 72px;
+    height: 72px;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0 auto 1.5rem;
+    box-shadow: var(--shadow-medium);
+  }
+
+  .step h3 {
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--dark);
+    line-height: 1.3;
+  }
+
+  .step p {
+    color: var(--gray);
+    line-height: 1.6;
+    font-size: 0.95rem;
+  }
+</style>
